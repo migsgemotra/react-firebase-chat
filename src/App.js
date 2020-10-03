@@ -10,7 +10,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+  apiKey: "AIzaSyBNFMWjiMDQshG7WELTJkjsaAUv2qqrZzE",
+  authDomain: "poi-chatter.firebaseapp.com",
+  databaseURL: "https://poi-chatter.firebaseio.com",
+  projectId: "poi-chatter",
+  storageBucket: "poi-chatter.appspot.com",
+  messagingSenderId: "816486705798",
+  appId: "1:816486705798:web:5ce26c51edf3d57715ff07"
 })
 
 const auth = firebase.auth();
